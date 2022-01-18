@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.Calculator {
+  width: 555px;
+  height: 555px;
+  background-color: aqua;
+  color: black;
+}
+.Display {
+  background-color: gray;
+  height: 20%;
+  font-size: 24px;
+}
+.operatorsOperands {
+  width: 100%;
+  height: 80%;
+  background-color: green;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+}
+button {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-size: larger;
+}
+#dot {
+  grid-column-start: span 4;
+  grid-column-end: auto;
+}
